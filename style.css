@@ -6,7 +6,7 @@
   gap: 40px;
 }
 .card {
-  padding: 30px;
+  padding: 50px 30px;
   background-color: gray;
   font-family: sans-serif;
   text-align: center;
@@ -19,6 +19,7 @@
 }
 img {
   width: 130px;
+  height: 100px;
 }
 p {
   margin: 20px 0 10px;
