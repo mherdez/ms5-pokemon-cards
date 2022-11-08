@@ -5,7 +5,6 @@ function viewPokemon( pokemon ) {
   container.innerHTML += `<div class="card ${pokemon.types[0].type.name}">
   <img src="${pokemon.sprites.other.dream_world.front_default}" alt="">
   <p>${pokemon.name}</p>
-  <p>${pokemon.types[0].type.name}</p>
   <div class="info">
     ${ pokemon.stats.map( item =>
       `<div class="stats">
@@ -24,7 +23,7 @@ function getPokemon( id ) {
   })
 }
 
-for (let index = 0; index < 100; index++) {
+for (let index = 1; index <= 16; index++) {
   getPokemon(index)
 
 }
