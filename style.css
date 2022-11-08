@@ -1,0 +1,80 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 260px);
+  justify-content: center;
+  margin: 50px auto;
+  gap: 40px;
+}
+.card {
+  padding: 30px;
+  background-color: gray;
+  font-family: sans-serif;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.326);
+}
+img {
+  width: 130px;
+}
+p {
+  margin: 20px 0 10px;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.info {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 15px;
+}
+.stats {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  width: 160px;
+}
+.stat {
+  font-weight: normal;
+}
+.stat-valor {
+  font-weight: bold;
+}
+.grass {
+  background-color: darkseagreen;
+}
+.water {
+  background-color: cornflowerblue;
+}
+.poison {
+  background-color: mediumslateblue;
+}
+.fire {
+  background-color: chocolate;
+}
+.electric {
+  background-color: darkgoldenrod;
+}
+.bug {
+  background-color: rgb(109, 132, 116);
+}
+.ground {
+  background-color: rgb(118, 96, 84);
+}
+.fairy {
+  background-color: palevioletred;
+}
+.rock {
+  background-color: slategrey;
+}
+.fighting {
+  background-color: rgb(58, 59, 61);
+}
+.psychic {
+  background-color: rgb(246, 213, 152);
+}
+.ghost {
+  background-color: rgb(106, 82, 121);
+}
